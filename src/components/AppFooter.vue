@@ -9,9 +9,6 @@ export default {
     <footer>
         <div class="dc_footer">
 
-
-
-
         </div>
         <div class="nav_footer">
             <button>SIGN-UP! NOW</button>
