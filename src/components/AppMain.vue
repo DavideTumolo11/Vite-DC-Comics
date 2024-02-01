@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .components_space {
     background-color: var(--soft-black);
-    height: 200px;
+    height: 150px;
     color: white;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ export default {
 
 .buy_space {
     background-color: var(--soft-blue);
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
