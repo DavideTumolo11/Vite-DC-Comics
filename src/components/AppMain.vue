@@ -1,11 +1,18 @@
 <script>
+import AppJumbotron from './AppJumbotron.vue';
+
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        AppJumbotron
+    }
+
 }
 </script>
 
 
 <template>
+    <AppJumbotron></AppJumbotron>
     <main>
         <div class="components_space"> --Content goes here--</div>
         <div class="buy_space">
@@ -41,6 +48,5 @@ export default {
 
 .img_buy {
     height: 60px;
-
 }
 </style>

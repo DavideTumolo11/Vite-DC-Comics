@@ -8,11 +8,12 @@ export default {
 <template>
     <header>
 
-        <div class="logo">
-            <img src="../assets/img/dc-logo.png" alt="">
-        </div>
+        <nav class="container">
 
-        <nav>
+            <div class="logo">
+                <img src="../assets/img/dc-logo.png" alt="">
+            </div>
+
             <ul class="main_menu">
                 <li><a href="#">CHARACTERS</a></li>
                 <li><a href="#">COMICS</a></li>
@@ -30,7 +31,7 @@ export default {
 </template>
 
 <style scoped>
-header {
+.container {
     text-align: center;
     display: flex;
     align-items: center;
@@ -53,6 +54,10 @@ header {
         color: black;
         font-size: 12px;
 
+    }
+
+    & a:hover {
+        border-bottom: 4px solid var(--soft-blue);
     }
 
 }
