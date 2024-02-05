@@ -1,10 +1,17 @@
 <script>
 import AppJumbotron from './AppJumbotron.vue';
+import AppComicsList from './AppComicsList.vue';
 
 export default {
     name: 'AppMain',
     components: {
-        AppJumbotron
+        AppJumbotron,
+        AppComicsList
+    },
+    data() {
+        return {
+
+        }
     }
 
 }
@@ -12,9 +19,10 @@ export default {
 
 
 <template>
-    <AppJumbotron></AppJumbotron>
     <main>
-        <div class="components_space"> --Content goes here--</div>
+        <AppJumbotron></AppJumbotron>
+        <AppComicsList></AppComicsList>
+
         <div class="buy_space">
             <img class="img_buy" src="../assets/img/buy-comics-digital-comics.png" alt="">DIGITAL COMICS
             <img class="img_buy" src="../assets/img/buy-comics-merchandise.png" alt="">DC MERCHANDISE
@@ -26,16 +34,6 @@ export default {
 </template>
 
 <style scoped>
-.components_space {
-    background-color: var(--soft-black);
-    height: 150px;
-    color: white;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    padding-left: 200px;
-}
-
 .buy_space {
     background-color: var(--soft-blue);
     height: 150px;

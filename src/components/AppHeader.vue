@@ -53,12 +53,16 @@ export default {
         text-decoration: none;
         color: black;
         font-size: 12px;
+        padding: 2rem 0;
 
     }
+
 
     & a:hover {
         border-bottom: 4px solid var(--soft-blue);
+        color: var(--soft-blue);
     }
+
 
 }
 </style>

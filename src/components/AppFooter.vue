@@ -28,6 +28,8 @@ export default {
 
 
 
+
+
                 </div>
 
             </div>
@@ -57,8 +59,9 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 400px;
+    max-height: 400px;
     background-image: url(../assets/img/footer-bg.jpg);
+
 }
 
 .nav_footer {
@@ -67,6 +70,7 @@ export default {
     align-items: center;
     height: 100px;
     background-color: var(--soft-grey);
+    position: relative;
 }
 
 button {
@@ -96,7 +100,8 @@ h4 {
 }
 
 .img_footer {
-    height: 400px;
+    height: 475px;
+
 }
 
 h5 {

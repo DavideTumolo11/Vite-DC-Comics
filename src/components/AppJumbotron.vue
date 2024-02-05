@@ -6,9 +6,16 @@ export default {
 
 
 <template>
-    <div>
-        <img src="../assets/img/jumbotron.jpg" alt="">
+    <div class="jumbotron">
+
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.jumbotron {
+    height: 400px;
+    background-image: url('../assets/img/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
